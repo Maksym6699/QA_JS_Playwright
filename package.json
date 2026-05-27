@@ -1,0 +1,23 @@
+{
+  "name": "qa_js_playwright",
+  "version": "1.0.0",
+  "main": "test.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maksym6699/QA_JS_Playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Maksym6699/QA_JS_Playwright/issues"
+  },
+  "homepage": "https://github.com/Maksym6699/QA_JS_Playwright#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1"
+  }
+}
