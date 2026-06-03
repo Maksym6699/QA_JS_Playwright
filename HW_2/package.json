@@ -1,0 +1,17 @@
+{
+  "name": "hw_2",
+  "version": "1.0.0",
+  "main": "test.playwright.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0"
+  }
+}
