@@ -46,15 +46,8 @@ export class RegistrationPage extends BasePage {
     return this.page.locator('[role="alert"], .error, .invalid-feedback, .form-error');
   }
 
-  async openRegistrationModal(context, baseUrl = 'https://qauto.forstudy.space/') {
-    if (context) {
-      await context.setHTTPCredentials({
-        username: 'guest',
-        password: 'welcome2qauto',
-      });
-    }
-
-    await this.goto(baseUrl);
+  async openRegistrationModal() {
+    await this.goto('/');
 
     await this.signUpButton.click({ timeout: 10000 });
 

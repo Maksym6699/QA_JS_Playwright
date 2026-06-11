@@ -1,7 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { RegistrationPage } from './pages/RegistrationPage.js';
 
-const BASE_URL = 'https://qauto.forstudy.space/';
 const TEST_EMAIL_PREFIX = 'aqa_';
 
 function generateTestEmail() {
@@ -11,10 +10,10 @@ function generateTestEmail() {
 test.describe('Registration Form Tests', () => {
   let registrationPage;
 
-  test.beforeEach(async ({ page, context }) => {
+  test.beforeEach(async ({ page }) => {
     registrationPage = new RegistrationPage(page);
 
-    await registrationPage.openRegistrationModal(context, BASE_URL);
+    await registrationPage.openRegistrationModal();
   });
 
   test('POSITIVE: Register new user with valid data', async () => {
