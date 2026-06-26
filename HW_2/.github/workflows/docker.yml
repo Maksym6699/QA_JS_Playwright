@@ -1,0 +1,21 @@
+name: Cypress Docker Build
+
+on:
+  push:
+    branches: [main, master, develop]
+  pull_request:
+    branches: [main, master, develop]
+
+jobs:
+  docker-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: docker build -t hw2-cypress .
+
+      - name: Run tests in Docker
+        run: docker run --rm hw2-cypress
