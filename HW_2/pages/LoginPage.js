@@ -1,11 +1,6 @@
 import { BasePage } from './BasePage.js';
 
-/**
- * LoginPage - Page Object for user login
- * Encapsulates all interactions with the login page
- */
 export class LoginPage extends BasePage {
-  // Locators
   get emailInput() {
     return this.page.locator('input[type="email"], input[placeholder*="Email"], input#email');
   }
@@ -30,9 +25,6 @@ export class LoginPage extends BasePage {
     return this.page.locator('button').filter({ hasText: /Guest log in|Guest Login/i });
   }
 
-  /**
-   * Login with email and password
-   */
   async login(email, password) {
     await this.emailInput.fill(email);
     await this.passwordInput.fill(password);
@@ -40,23 +32,14 @@ export class LoginPage extends BasePage {
     await this.page.waitForLoadState('networkidle');
   }
 
-  /**
-   * Navigate to login page
-   */
   async goto() {
     await super.goto('/');
   }
 
-  /**
-   * Check if login form is visible
-   */
   async isLoginFormVisible() {
     return await this.emailInput.isVisible();
   }
 
-  /**
-   * Get error message text
-   */
   async getErrorMessage() {
     try {
       return await this.errorMessage.textContent();

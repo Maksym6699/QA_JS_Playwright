@@ -2,10 +2,10 @@
   "cookies": [
     {
       "name": "__Secure-YNID",
-      "value": "19.YT=NSuPcxcb0RSUbPTsEk0zPD186wP28kIEzOg_xg4V9uyDv4Zp-7tR_OcID1i2_62GxrFU-UtTDYpGo3FIK_uPHichY_jLepbdaGfbm2k92mgA8sc3Adkjo3Pu1uW1EyHQR8lhmMYyk5xM5RtB8qmrSESFRy-zbx-0ewHnhVeC2BKik5h8PlYNYP_gZRXibuWUsxpY0_2URvHPYJxgGTEJjWIBnzM-YpTD_IjzoWVdbLGBAyj4ZFZtpuRBz3WdoKVjdVcrco-CbugStKiHr05-fLdXVF4AreIXdHZn8mxpeW9LsPa_FEGbsxbS01I4SEjhV8-SguHaZD5-NhD-AJkUzQ",
+      "value": "19.YT=HzwExWgeMAPMcCBAjMbpuKN6OXuLfilvaR-gVNaBVlrGmz9Fv5ZOXqphbjM7TegQCxmb62RJTLOlCYCHhrzGikAGRJggD_zbGvmjS49XCNRs5M8I7PsniRJLd_zGDB1yq7N5K1QwNC-NHfauaXdvQ9UUayUprPzA_4LkRUhLbd_pQHoBcq2hncIcO-HyIgmXLa8Se8mKH6bVZ5jTQ75toy33DotUmwt3VEIsuweF8Ys1suPQQMyql45A4fZsJ7mJx9AOb2SI6rF4OIYbiUyLiGk2Wo2PJYaZvUx_U4r02UrQ5k_ypCvhr5VXy38iGem5HyymYUWXs-9RqbOs-TnSCA",
       "domain": ".youtube.com",
       "path": "/",
-      "expires": 1796753124.119012,
+      "expires": 1797356726.601865,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None",
@@ -14,7 +14,7 @@
     },
     {
       "name": "YSC",
-      "value": "InxHMBPzhQA",
+      "value": "JnuYDqjN18M",
       "domain": ".youtube.com",
       "path": "/",
       "expires": -1,
@@ -26,10 +26,10 @@
     },
     {
       "name": "VISITOR_INFO1_LIVE",
-      "value": "ibDnp0KmVEk",
+      "value": "-vxHbUl5j0Y",
       "domain": ".youtube.com",
       "path": "/",
-      "expires": 1796753124.120103,
+      "expires": 1797356726.602697,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None",
@@ -38,10 +38,10 @@
     },
     {
       "name": "VISITOR_PRIVACY_METADATA",
-      "value": "CgJVQRIEGgAgPg%3D%3D",
+      "value": "CgJVQRIEGgAgNA%3D%3D",
       "domain": ".youtube.com",
       "path": "/",
-      "expires": 1796753124.120115,
+      "expires": 1797356726.602715,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None",
@@ -50,10 +50,10 @@
     },
     {
       "name": "__Secure-ROLLOUT_TOKEN",
-      "value": "CNbLhLim0_WU5wEQrLCaouP_lAMYrLCaouP_lAM%3D",
+      "value": "CI_GouTi2KKhKRDZ-Kbuq5GVAxjZ-Kbuq5GVAw%3D%3D",
       "domain": ".youtube.com",
       "path": "/",
-      "expires": 1796753124.120126,
+      "expires": 1797356726.602733,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None",
@@ -67,11 +67,11 @@
       "localStorage": [
         {
           "name": "ytidb::LAST_RESULT_ENTRY_KEY",
-          "value": "{\"data\":{\"hasSucceededOnce\":true},\"expiration\":1783793124350,\"creation\":1781201124350}"
+          "value": "{\"data\":{\"hasSucceededOnce\":true},\"expiration\":1784396726862,\"creation\":1781804726862}"
         },
         {
           "name": "yt-icons-last-purged",
-          "value": "1774980324450"
+          "value": "1777052726957"
         }
       ]
     }
