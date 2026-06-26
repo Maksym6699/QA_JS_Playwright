@@ -5,7 +5,11 @@
   "scripts": {
     "test": "playwright test",
     "test:ui": "playwright test --ui",
-    "test:debug": "playwright test --debug"
+    "test:debug": "playwright test --debug",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --browser chrome",
+    "cypress:run:headed": "cypress run --browser chrome --headed",
+    "cypress:run:docker": "cypress run --browser chromium"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +17,7 @@
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.60.0",
+    "cypress": "13.7.0",
     "dotenv": "^10.0.0"
   }
 }
