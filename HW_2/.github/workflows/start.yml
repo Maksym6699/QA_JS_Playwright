@@ -1,6 +1,6 @@
 name: Cypress Chrome Tests
 run-name: Cypress Chrome Tests
-on: workflow_dispatch
+
 on:
   push:
     branches: [master]
