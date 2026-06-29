@@ -2,6 +2,7 @@ name: Cypress Chrome Tests
 run-name: Cypress Chrome Tests
 
 on:
+  workflow_dispatch:
   push:
     branches: [master]
   pull_request:
