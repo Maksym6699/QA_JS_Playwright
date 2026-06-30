@@ -9,6 +9,9 @@ on:
 jobs:
   docker-test:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: HW_2
 
     steps:
       - name: Checkout code
